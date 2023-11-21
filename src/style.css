@@ -5,7 +5,6 @@
 }
 
 #container {
-    
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-image: url("/src/images/img1.jpg");
@@ -16,6 +15,7 @@
 #navigation-dots {
     display: flex;
     flex-direction: row;
+    height: 10vh;
 }
 
 /* Fixes the position of the navigation dots div on the bottom of the page */
@@ -24,7 +24,7 @@
     width: fit-content;
     left: 0;
     right: 0;
-    margin: 42% auto;
+    margin: 90vh auto;
 }
 
 /* Innactive dot navigation style */
@@ -54,7 +54,7 @@ div.arrow {
     position: fixed;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 20% auto;
+    margin: 45vh auto;
 
     display: flex;
     flex-direction: row;
